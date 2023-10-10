@@ -1,0 +1,131 @@
+{
+  "scenes": [
+    {
+      "id": 0,
+      "url": "/images/001.jpg",
+      "hitzones": {
+        "left": {
+          "x": [10, 50],
+          "goto": 1
+        }
+      }
+    },
+    {
+      "id": 1,
+      "url": "/images/002.jpg",
+      "hitzones": {
+        "left": {
+          "x": [10, 50],
+          "goto": 2
+        },
+        "right": {
+          "x": [50, 90],
+          "goto": 0
+        }
+      }
+    },
+    {
+      "id": 2,
+      "url": "/images/003.jpg",
+      "hitzones": {
+        "left": {
+          "x": [10, 50],
+          "goto": 3
+        },
+        "right": {
+          "x": [50, 90],
+          "goto": 1
+        }
+      }
+    },
+    {
+      "id": 3,
+      "url": "/images/004.jpg",
+      "hitzones": {
+        "left": {
+          "x": [10, 50],
+          "goto": 4
+        },
+        "right": {
+          "x": [50, 90],
+          "goto": 2
+        }
+      }
+    },
+    {
+      "id": 4,
+      "url": "/images/005.jpg",
+      "hitzones": {
+        "left": {
+          "goto": 5
+        },
+        "right": {
+          "goto": 3
+        }
+      }
+    },
+    {
+      "id": 5,
+      "url": "/images/006.jpg",
+      "hitzones": {
+        "left": {
+          "goto": 4
+        },
+        "middle": {
+          "goto": 6
+        },
+        "right": {
+          "goto": 7
+        }
+      }
+    },
+    {
+      "id": "HOME",
+      "url": "/images/007.jpg",
+      "hitzones": {
+        "left": {
+          "goto": 5
+        }
+      }
+    },
+    {
+      "id": "C",
+      "url": "/images/008.jpg",
+      "hitzones": {
+        "left": {
+          "goto": 5
+        },
+        "middle": {
+          "goto": 8
+        },
+        "right": {
+          "goto": 9
+        }
+      }
+    },
+    {
+      "id": "B",
+      "url": "/images/009.jpg",
+      "hitzones": {
+        "left": {
+          "goto": 9
+        },
+        "right": {
+          "goto": 7
+        }
+      }
+    },
+    {
+      "id": "top",
+      "url": "/images/010.jpg",
+      "hitzones": {
+        "left": {
+          "goto": 7
+        },
+        "right": {
+          "goto": 8
+        }
+      }
+    }
+  ]
+}
