@@ -5,7 +5,7 @@
       "url": "/images/001.jpg",
       "hitzones": {
         "left": {
-          "x": [10, 50],
+          "pos": [22, 50],
           "goto": 1
         }
       }
@@ -15,11 +15,11 @@
       "url": "/images/002.jpg",
       "hitzones": {
         "left": {
-          "x": [10, 50],
+          "pos": [26, 50],
           "goto": 2
         },
         "right": {
-          "x": [50, 90],
+          "pos": [68, 80],
           "goto": 0
         }
       }
@@ -29,11 +29,11 @@
       "url": "/images/003.jpg",
       "hitzones": {
         "left": {
-          "x": [10, 50],
+          "pos": [13, 50],
           "goto": 3
         },
         "right": {
-          "x": [50, 90],
+          "pos": [74, 50],
           "goto": 1
         }
       }
@@ -43,11 +43,11 @@
       "url": "/images/004.jpg",
       "hitzones": {
         "left": {
-          "x": [10, 50],
+          "pos": [23, 50],
           "goto": 4
         },
         "right": {
-          "x": [50, 90],
+          "pos": [72, 50],
           "goto": 2
         }
       }
@@ -57,9 +57,11 @@
       "url": "/images/005.jpg",
       "hitzones": {
         "left": {
+          "pos": [20, 50],
           "goto": 5
         },
         "right": {
+          "pos": [70, 50],
           "goto": 3
         }
       }
@@ -69,12 +71,15 @@
       "url": "/images/006.jpg",
       "hitzones": {
         "left": {
+          "pos": [13, 50],
           "goto": 4
         },
         "middle": {
+          "pos": [50, 50],
           "goto": 6
         },
         "right": {
+          "pos": [78, 50],
           "goto": 7
         }
       }
@@ -84,6 +89,7 @@
       "url": "/images/007.jpg",
       "hitzones": {
         "left": {
+          "pos": [20, 50],
           "goto": 5
         }
       }
@@ -93,12 +99,15 @@
       "url": "/images/008.jpg",
       "hitzones": {
         "left": {
+          "pos": [26, 50],
           "goto": 5
         },
         "middle": {
+          "pos": [62, 50],
           "goto": 8
         },
         "right": {
+          "pos": [81, 50],
           "goto": 9
         }
       }
@@ -108,9 +117,11 @@
       "url": "/images/009.jpg",
       "hitzones": {
         "left": {
+          "pos": [8, 50],
           "goto": 9
         },
         "right": {
+          "pos": [42, 50],
           "goto": 7
         }
       }
@@ -120,9 +131,11 @@
       "url": "/images/010.jpg",
       "hitzones": {
         "left": {
+          "pos": [30, 40],
           "goto": 7
         },
         "right": {
+          "pos": [48, 40],
           "goto": 8
         }
       }
