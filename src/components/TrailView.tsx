@@ -1,15 +1,14 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import Image from "next/image";
+
 import { useTrackingState } from "@/store/store";
-
-import DirectionIcon from "./DirectionIcon";
-
-import scenes from "../../public/scenes.json";
-
 import useMousePosition from "@/hooks/useMousePosition";
 import isWithinBoundary from "@/helper/isWithinBoundary";
-import { useEffect, useState } from "react";
+
+import DirectionIcon from "./DirectionIcon";
+import scenes from "../../public/scenes.json";
 
 interface ControllerProps {
   scrollContainerRef: React.RefObject<HTMLDivElement>;
