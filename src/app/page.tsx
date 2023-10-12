@@ -1,8 +1,7 @@
 "use client";
 
 import TrailView from "@/components/TrailView";
-import { useRef, useState } from "react";
-import scenes from "../../public/scenes.json";
+import { useRef } from "react";
 import Controller from "@/components/Controller";
 
 export default function Home() {

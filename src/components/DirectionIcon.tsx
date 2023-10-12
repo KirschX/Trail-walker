@@ -26,7 +26,6 @@ interface DirectionIconProps {
   xRatio: number;
   boundaries: Boundaries;
   hasMiddle: boolean;
-  // onClick: () => void;
 }
 
 export default function DirectionIcon({
@@ -77,6 +76,3 @@ export default function DirectionIcon({
     </div>
   );
 }
-
-// visibility
-// screenx가 screen의 3%부터 97%까지만 보이게 하기

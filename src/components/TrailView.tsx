@@ -55,7 +55,19 @@ export default function TrailView({ scrollContainerRef }: ControllerProps) {
   };
 
   useEffect(() => {
-    setWindowHeight(window.innerHeight);
+    if (typeof window !== "undefined") {
+      const handleResize = () => {
+        setWindowHeight(window.innerHeight);
+      };
+
+      handleResize();
+
+      window.addEventListener("resize", handleResize);
+
+      return () => {
+        window.removeEventListener("resize", handleResize);
+      };
+    }
   }, []);
 
   return (
